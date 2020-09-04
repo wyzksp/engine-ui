@@ -29,13 +29,6 @@ export class Autosuggest extends React.Component<AutosuggestProps> {
                         {suggestion}
                     </div>
                 )}
-                renderInputComponent={(inputProps) => (
-                    <div>
-                        {/*
-                        // @ts-ignore */}
-                        <input {...inputProps} className={'argo-field'} />
-                    </div>
-                )}
             />
         );
     }
